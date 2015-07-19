@@ -34,3 +34,12 @@ diagram the way we do?
 	Merging brings in changes made in one branch to destination branch. Branching
 	introduces 2nd dimension to the version tree, so we represent it likewise.
 	
+What are the pros and cons of Git’s automatic merging vs. always doing merges 
+manually?
+
+	always doing merges manually can become too much if there are many files involved 
+	especially on large teams with many members committing.
+	automatic merging can make mistakes where judgement is required because
+	GIT is not an intelligent software with machine learning.
+	
+
