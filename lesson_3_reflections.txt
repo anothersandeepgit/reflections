@@ -31,3 +31,15 @@ what would be harder?
 
 	without using Git or GitHub we would have to exchange ZIPped code-tree making
 	sure different ZIPs have different names. It would be harder.
+	
+When would you want to make changes in a separate branch rather than directly in 
+master? What benefits does each approach have?
+
+	When there is a possibility of different developers needing to make change
+	to common files then it makes sense for each to work in different branches
+	so as not to step on each other toes overwriting each other's changes
+	accidentally. Branch based workflow is slower because it requires 
+	co-ordination, but it is unavoidable in case of larger teams.
+	
+	
+
