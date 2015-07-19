@@ -26,3 +26,8 @@ locally?
 	It helps in determining if the remote has been updated since last time changes 
 	were pulled to local repository.
 	
+How would you collaborate without using Git or GitHub? What would be easier, and 
+what would be harder?
+
+	without using Git or GitHub we would have to exchange ZIPped code-tree making
+	sure different ZIPs have different names. It would be harder.
