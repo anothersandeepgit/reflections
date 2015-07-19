@@ -1,0 +1,53 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    visually comparing the corresponding lines in the two files revealed
+	the difference one of which was the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    if we could see the evolution of a file over a number of versions we
+	could related the various changes to corresponding request for change in 
+	feature.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    humans can forget to commit for a long time and potentially lose those changes
+	since human judgment is used in deciding when to commit there is no standard
+	
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    in programmiing design could result in implementing functionality
+	using multiple files. Different aspects of a functionality are
+	entered in different file. So these files end up being related
+	when a functionality is being considered.
+	In non-programming documentation relationship between files is not that
+	critical so simplicity of consideringg each file separately is ok there.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git log ->shows the different commits and help identify through
+	commit comments the high level reason for each commit
+	git log --stat -> shows what files changed in each commit and 
+	total number of insertions and deletions made to each file
+	git diff <commit_id1> <commit_id2> ->shows more details of changes
+	made to esch file between 2 differrent commits
+	these commands help us make sense of change and relate low level changes
+	to progressively higher level changes
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    we can become lazy and commit without sufficient testing just because
+	in case we find a problem later we can always revert to previous 
+	working version.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use git for moving on with Android development just the way the
+	developers do in the industry.
