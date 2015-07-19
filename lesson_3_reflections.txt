@@ -10,3 +10,13 @@ stay up-to-date with your remote repository?
 	to incorporate other developers commits into our own development when we are
 	ready.
 	
+Describe the differences between forks, clones, and branches. When would you use one 
+instead of another?
+
+	fork is creating an equivalen of a branch on someone else's repository on GitHub.
+	This is helpful if we don't have permission to commit to the owner's repository.
+	clone is creating a copy of a remote repository on a local machine. It is useful
+	in making changes on a local machine especially when disconnected from remote.
+	branch is creating a label for a specific commit in a repository. This is useful
+	for experimenting, or any other parallel development effort.
+	
