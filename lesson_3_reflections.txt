@@ -20,3 +20,9 @@ instead of another?
 	branch is creating a label for a specific commit in a repository. This is useful
 	for experimenting, or any other parallel development effort.
 	
+What is the benefit of having a copy of the last known state of the remote stored 
+locally?
+
+	It helps in determining if the remote has been updated since last time changes 
+	were pulled to local repository.
+	
