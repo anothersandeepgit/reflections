@@ -23,4 +23,14 @@ organized? How would branches help?
 	When experimenting or making major change at the same time not to interfere
 	with fixing of bugs branches help. Any parallel development requires branches.
 	
+How do the diagrams help you visualize the branch structure?
+	
+	Diagrams present a 2 dimensional representation of commit history
+	without which branch structure can not be easily visualized.
+	
+What is the result of merging two branches together? Why do we represent it in the 
+diagram the way we do?
+
+	Merging brings in changes made in one branch to destination branch. Branching
+	introduces 2nd dimension to the version tree, so we represent it likewise.
 	
